@@ -1,0 +1,7 @@
+D:\LV_TEST\LUANVAN\NKCH\bin\NKCH.dll.config
+D:\LV_TEST\LUANVAN\NKCH\bin\NKCH.dll
+D:\LV_TEST\LUANVAN\NKCH\bin\NKCH.pdb
+D:\LV_TEST\LUANVAN\NKCH\obj\Debug\NKCH.csprojResolveAssemblyReference.cache
+D:\LV_TEST\LUANVAN\NKCH\obj\Debug\NKCH.dll
+D:\LV_TEST\LUANVAN\NKCH\obj\Debug\NKCH.pdb
+D:\LV_TEST\LUANVAN\NKCH\bin\AjaxControlToolkit.dll

@@ -1,0 +1,38 @@
+D:\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csprojResolveAssemblyReference.cache
+D:\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\NKCH.dll
+D:\LV_THINH_QUYNH\LUANVAN\NKCH\bin\NKCH.dll.config
+D:\LV_THINH_QUYNH\LUANVAN\NKCH\bin\NKCH.dll
+D:\LV_THINH_QUYNH\LUANVAN\NKCH\bin\NKCH.pdb
+D:\LV_THINH_QUYNH\LUANVAN\NKCH\bin\AjaxControlToolkit.dll
+D:\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\NKCH.pdb
+D:\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csproj.CoreCompileInputs.cache
+D:\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csproj.CopyComplete
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\bin\NKCH.dll.config
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\bin\NKCH.dll
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\bin\NKCH.pdb
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\bin\AjaxControlToolkit.dll
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\bin\CkEditor.dll
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\bin\CKEditor.NET.dll
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csproj.CoreCompileInputs.cache
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csproj.CopyComplete
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\NKCH.dll
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\NKCH.pdb
+C:\Users\Platini\Desktop\DANGTHUCHIEN\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csprojResolveAssemblyReference.cache
+D:\New folder\LV_THINH_QUYNH\LUANVAN\NKCH\bin\NKCH.dll.config
+D:\New folder\LV_THINH_QUYNH\LUANVAN\NKCH\bin\NKCH.dll
+D:\New folder\LV_THINH_QUYNH\LUANVAN\NKCH\bin\NKCH.pdb
+D:\New folder\LV_THINH_QUYNH\LUANVAN\NKCH\bin\AjaxControlToolkit.dll
+D:\New folder\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csprojResolveAssemblyReference.cache
+D:\New folder\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csproj.CoreCompileInputs.cache
+D:\New folder\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csproj.CopyComplete
+D:\New folder\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\NKCH.dll
+D:\New folder\LV_THINH_QUYNH\LUANVAN\NKCH\obj\Debug\NKCH.pdb
+D:\LUANVAN\NKCH\bin\NKCH.dll.config
+D:\LUANVAN\NKCH\bin\NKCH.dll
+D:\LUANVAN\NKCH\bin\NKCH.pdb
+D:\LUANVAN\NKCH\bin\AjaxControlToolkit.dll
+D:\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csprojResolveAssemblyReference.cache
+D:\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csproj.CoreCompileInputs.cache
+D:\LUANVAN\NKCH\obj\Debug\HETHONGQUANLY_NCKH.csproj.CopyComplete
+D:\LUANVAN\NKCH\obj\Debug\NKCH.dll
+D:\LUANVAN\NKCH\obj\Debug\NKCH.pdb

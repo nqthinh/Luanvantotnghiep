@@ -1,0 +1,165 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mainpage.master.cs" Inherits="NKCH.mainpage" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head runat="server">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="assets/img/ctut1.png">
+	<title>Hệ Thống Quản Lý Nghiên Cứu Khoa Học</title>
+	<link rel="stylesheet" type="text/css" href="assets/lib/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/lib/material-design-icons/css/material-design-iconic-font.min.css" />
+	<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<link rel="stylesheet" type="text/css" href="assets/lib/jquery.vectormap/jquery-jvectormap-1.2.2.css" />
+	<link rel="stylesheet" type="text/css" href="assets/lib/jqvmap/jqvmap.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/lib/datetimepicker/css/bootstrap-datetimepicker.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/grid.css" type="text/css" />
+</head>
+
+<body>
+	<form runat="server">
+		<div class="be-wrapper be-fixed-sidebar">
+			<nav class="navbar navbar-default navbar-fixed-top be-top-header">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a href="index.aspx">
+							<img src="assets/img/logoresearch.png" /></a>
+					</div>
+					<div class="be-right-navbar">
+						<ul class="nav navbar-nav navbar-right be-user-nav">
+							<li></li>
+						</ul>
+						<div class="page-title"><span>HỆ THỐNG QUẢN LÝ NGHIÊN CỨU KHOA HỌC</span></div>
+						<ul class="nav navbar-nav navbar-right be-icons-nav">
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="be-left-sidebar">
+
+				<div class="left-sidebar-content">
+					<div role="alert" class="alert alert-contrast alert-primary alert-dismissible">
+						<div class="message">
+							Xin chào<asp:Label ID="lbuser" runat="server" Text="Username" Width="100%"></asp:Label>
+						</div>
+						<asp:Button ID="btndangxuat" runat="server" Text="Đăng Xuất" class="btn btn-space btn-danger" Style="text-align: center" OnClick="btndangxuat_Click" Width="100%" CausesValidation="False" />
+					</div>
+					<div class="left-sidebar-wrapper">
+						<a href="#" class="left-sidebar-toggle">Dashboard</a>
+						<div class="left-sidebar-spacer">
+							<div class="left-sidebar-scroll">
+
+								<ul class="sidebar-elements">
+									<li class="children"><span></span>
+									</li>
+									<li class="divider">Menu</li>
+									<li class="children"><a href="index.aspx"><i class="icon mdi mdi-home"></i><span>TRANG CHỦ</span></a>
+									</li>
+									<li class="parent"><a href="#"><i class="icon mdi mdi-book"></i><span>DANH MỤC</span></a>
+										<ul class="sub-menu">
+											<li>
+                                                <asp:HyperLink ID="hphocvi" runat="server" NavigateUrl="~/hocvi.aspx" Visible="False">HỌC VỊ</asp:HyperLink>
+											</li>
+											<li>
+                                                <asp:HyperLink ID="hpdskhoa" runat="server" NavigateUrl="~/khoa.aspx" Visible="False">KHOA</asp:HyperLink>
+											</li>
+											<li>
+                                                <asp:HyperLink ID="hpdschucvu" runat="server" NavigateUrl="~/chucvu.aspx" Visible="False">CHỨC VỤ</asp:HyperLink>
+											</li>
+											<li>
+                                                <asp:HyperLink ID="hpdsloaihinh" runat="server" NavigateUrl="~/loaihinh.aspx" Visible="False">LOẠI HÌNH</asp:HyperLink>
+											</li>
+											<li>
+                                                <asp:HyperLink ID="hpdslinhvuc" runat="server" NavigateUrl="~/linhvuc.aspx" Visible="False">LĨNH VỰC</asp:HyperLink>
+											</li>
+										</ul>
+									</li>
+									<li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span>NGƯỜI DÙNG</span></a>
+										<ul class="sub-menu">
+											<li>
+                                                <asp:HyperLink ID="hpdsgiangvien" runat="server" NavigateUrl="~/giangvien.aspx" Visible="true">NGƯỜI DÙNG</asp:HyperLink>
+											</li>
+											<li>
+                                                <asp:HyperLink ID="hpdoimatkhau" runat="server" NavigateUrl="~/doimatkhau.aspx" Visible="True">ĐỔI MẬT KHẨU</asp:HyperLink>
+											</li>
+										</ul>
+									</li>
+									<li class="parent"><a href="#"><i class="icon mdi mdi-chart-donut"></i><span>ĐỀ TÀI NGHIÊN CỨU</span></a>
+										<ul class="sub-menu">
+											<li>
+                                                <asp:HyperLink ID="hpdexuatdetai" runat="server" NavigateUrl="~/dexuatdetai.aspx" Visible="False">ĐỀ XUẤT ĐỀ TÀI</asp:HyperLink>
+											</li>
+											<li>
+                                                <asp:HyperLink ID="hpdetaicanhan" runat="server" NavigateUrl="~/danhsachdetai.aspx" Visible="False">ĐỀ TÀI CÁ NHÂN</asp:HyperLink>
+											</li>
+											<li>
+												<asp:HyperLink ID="hpdsdetai" runat="server" NavigateUrl="danhsachdetai_quanly.aspx" Visible="False">DANH SÁCH ĐỀ TÀI</asp:HyperLink>
+											</li>
+                                            <li>
+                                                <asp:HyperLink ID="hpthoigiandangky" runat="server" NavigateUrl="~/thoigiandangky.aspx" Visible="False">THỜI GIAN ĐĂNG KÝ</asp:HyperLink>
+                                            </li>
+										</ul>
+									</li>
+									<li class="parent"><a href="#"><i class="icon mdi mdi-dot-circle"></i><span>THUYẾT MINH ĐỀ TÀI</span></a>
+										<ul class="sub-menu">
+											<li>
+                                                <asp:HyperLink ID="hpdsthuyetminh" runat="server" NavigateUrl="~/danhsachdetaithuyetminh_quanly.aspx" Visible="False">DANH SÁCH THUYẾT MINH ĐỀ TÀI</asp:HyperLink>
+											</li>
+											<li>
+                                                <asp:HyperLink ID="hpthuyetminhdetai" runat="server" NavigateUrl="~/danhsachthuyetminhdetai.aspx" Visible="False">THUYẾT MINH ĐỀ TÀI CÁ NHÂN</asp:HyperLink>
+											</li>
+                                            <li>
+                                                <asp:HyperLink ID="hpdsgiahan" runat="server" NavigateUrl="~/danhsachgiahandetai.aspx" Visible="False">DANH SÁCH GIA HẠN</asp:HyperLink>
+											</li>
+                                            <li>
+                                                <asp:HyperLink ID="hpdsdungthuchien" runat="server" NavigateUrl="~/danhsachdungthuchiendetai.aspx" Visible="False">DANH SÁCH DỪNG THỰC HIỆN</asp:HyperLink>
+											</li>
+										</ul>
+									</li>
+									<li class="children"><a href="tktheogv.aspx"><i class="icon mdi mdi-view-web"></i><span>TÌM KIẾM</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="be-content">
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+			</div>
+		</div>
+		<script src="assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
+		<script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+		<script src="assets/js/main.js" type="text/javascript"></script>
+		<script src="assets/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="assets/lib/jquery-flot/jquery.flot.js" type="text/javascript"></script>
+		<script src="assets/lib/jquery-flot/jquery.flot.pie.js" type="text/javascript"></script>
+		<script src="assets/lib/jquery-flot/jquery.flot.resize.js" type="text/javascript"></script>
+		<script src="assets/lib/jquery-flot/plugins/jquery.flot.orderBars.js" type="text/javascript"></script>
+		<script src="assets/lib/jquery-flot/plugins/curvedLines.js" type="text/javascript"></script>
+		<script src="assets/lib/jquery.sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
+		<script src="assets/lib/countup/countUp.min.js" type="text/javascript"></script>
+		<script src="assets/lib/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="assets/lib/jqvmap/jquery.vmap.min.js" type="text/javascript"></script>
+		<script src="assets/lib/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
+		<script src="assets/js/app-dashboard.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				//initialize the javascript
+				App.init();
+				App.dashboard();
+
+			});
+		</script>
+	</form>
+</body>
+
+</html>
